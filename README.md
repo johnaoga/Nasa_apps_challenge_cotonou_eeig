@@ -1,7 +1,36 @@
 # Nasa_apps_challenge_cotonou_eeig
-Code for EILG
+Groupe SMART TRAFFIC LIGTH (STL)
+
+#Auteurs
+John O. R. AOGA
+Probus M. A. F. KIKI
 
 #Contenu du dossier
+8 repertoires, 15 fichiers
+.
+├── Code_Projet
+│   ├── Arduino
+│   │   └── AppsChalenges.ino => Représente le code arduino
+│   └── Labview  => Le dossier du code LABVIEW
+│       ├── Commande 1.ctl 
+│       └── supervision Feux.vi
+├── Docs
+│   ├── Capture Prototype => Les captures du prototype
+│   │   └── prototype.jpg
+│   ├── capture Supervision => Les captures de la supervision
+│   │   ├── Capture1.PNG
+│   │   ├── Capture2.PNG
+│   │   ├── Capture3.PNG
+│   │   ├── Capture4.PNG
+│   │   └── Capture5.PNG
+│   ├── code_arduino => Listing du code ARDUINO
+│   │   └── code arduino.txt
+│   ├── description.docx => Brève description du projet
+│   ├── Labview  => Description du code labview
+│   │   ├── code labview.PNG
+│   │   └── Labview.PNG
+│   └── projet_tricolor.doc  => Rapport présentant le projet
+└── README.md => ME LIRE!! :)
 
 # Description
 Au Bénin, nous observons une mauvaise régularisation des flux de circulations, un mauvais fonctionnement des feux tricolores en place ce qui obligent un policier à devoir se positionner pour faire manuellement la régularisation. Hier l’organisation de la circulation des véhicules dans un carrefour se faisait par l’homme, depuis la naissance des systèmes d'automatisation et de détection les carrefours sont contrôlés par des automates plus ou moins intelligents. 
@@ -15,3 +44,5 @@ Ces différentes configurations sont effectuées via une interface de supervisio
 L’état dynamique des feux tricolores est présenté aussi bien sur la maquette que dans l’interface de supervision.
 La communication entre Arduino et LabVIEW  est effectuer pour USB.
 
+# Récupérer le projet (Rappel)
+git clone https://github.com/johnaoga/Nasa_apps_challenge_cotonou_eeig.git
